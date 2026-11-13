@@ -3,12 +3,25 @@
 Shift를 누른 채 파일을 끌면 커서 둘레에 원형 메뉴가 뜨고, 원하는 칸에 놓으면 그 형식으로 바꿔 주는 프로그램입니다.
 바뀐 파일은 원본 옆에 새로 생기고, 원본은 그대로 남습니다. 모든 변환은 내 컴퓨터 안에서 끝나며 파일을 어디로도 보내지 않습니다.
 
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="images/ring-open.png" width="240" alt="파일을 끌면 커서 둘레에 원형 메뉴가 뜬 모습"></td>
+    <td align="center" width="33%"><img src="images/ring-pick.png" width="240" alt="한글 칸 위에 올려 바뀔 파일 이름이 보이는 모습"></td>
+    <td align="center" width="33%"><img src="images/ring-done.png" width="240" alt="놓은 뒤 원본 옆에 만들었다고 알려 주는 모습"></td>
+  </tr>
+  <tr>
+    <td align="center">① Shift를 누른 채 끌면<br>메뉴가 뜹니다</td>
+    <td align="center">② 칸 위에 올리면<br>바뀔 파일 이름이 보입니다</td>
+    <td align="center">③ 놓으면 원본 옆에<br>새 파일이 생깁니다</td>
+  </tr>
+</table>
+
 ## 내려받기
 
 | 운영체제 | 파일 |
 |---|---|
 | 윈도우 10·11 (64비트) | [installSweetChan.exe](https://github.com/wlsvy19/SweetChan-Release/releases/latest/download/installSweetChan.exe) |
-| macOS | [installSweetChan.dmg](https://github.com/wlsvy19/SweetChan-Release/releases/latest/download/installSweetChan.dmg) |
+| macOS (애플 칩 M1 이상) | [installSweetChan.dmg](https://github.com/wlsvy19/SweetChan-Release/releases/latest/download/installSweetChan.dmg) |
 
 지난 판과 바뀐 날짜는 [릴리스](https://github.com/wlsvy19/SweetChan-Release/releases)에서 볼 수 있습니다. 내려받은 파일이 맞는지는 `SHA256SUMS.txt`의 체크섬과 견주어 확인할 수 있습니다.
 
@@ -28,9 +41,12 @@ Shift를 누른 채 파일을 끌면 커서 둘레에 원형 메뉴가 뜨고, �
 
 ## 쓰는 법
 
-1. 탐색기(맥은 Finder)에서 **Shift를 누른 채** 파일을 클릭하고 끌기 시작합니다.
-2. 커서 둘레에 원형 메뉴가 뜨면 바꾸고 싶은 형식의 칸 위로 가져갑니다.
-3. 놓으면 원본 옆에 새 파일이 생깁니다. 가운데나 메뉴 밖에 놓거나, Shift를 떼거나, Esc를 누르면 취소됩니다.
+1. 탐색기(맥은 Finder)에서 **Shift를 누른 채** 파일을 클릭하고 끌기 시작합니다. 놓을 때까지 Shift를 계속 누르고 있습니다.
+2. 커서 둘레에 원형 메뉴가 뜨면 바꾸고 싶은 형식의 칸 위로 가져갑니다. 가운데에 만들어질 파일 이름이 보입니다.
+3. 놓으면 원본 옆에 새 파일이 생기고, 가운데에 ✓와 함께 알려 줍니다. 같은 이름의 파일이 이미 있으면 이름 뒤에 번호를 붙입니다.
+4. 가운데나 메뉴 밖에 놓거나, Shift를 떼거나, Esc를 누르면 취소됩니다.
+
+같은 종류의 파일 여러 개를 한꺼번에 끌어도 됩니다. 메뉴에는 끌어온 파일 종류에 맞는 형식만 나옵니다. 종류가 섞여 있으면 가운데에 "형식이 섞여 있어요"라고 나오고 바꾸지 않습니다.
 
 ## 바꿀 수 있는 형식
 
